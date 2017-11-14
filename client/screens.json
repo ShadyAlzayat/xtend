@@ -34,12 +34,6 @@
       "name": "About",
       "sourceScreenId": "app.blank",
       "sourceAppId": "xtend_2"
-    },
-    {
-      "id": "menu1",
-      "name": "menu1",
-      "sourceScreenId": "app.menu",
-      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
