@@ -11,55 +11,33 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.1" style="padding: 40px;">
-            <div class="row" data-comp-id="row.1" style="margin: 10px;">
-                <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1">Batch Number</div>
-                </div>
-                <div class="col" data-comp-id="column.2">
-                    <div data-comp-id="text.2" ng-bind="data.batchnumber">Batch Number</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.2" style="margin: 10px;">
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.3">Status</div>
-                </div>
-                <div class="col" data-comp-id="column.4">
-                    <div data-comp-id="text.4" ng-bind="data.status">Status</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.3" style="margin: 10px;">
-                <div class="col" data-comp-id="column.5">
-                    <div data-comp-id="text.5">Task Number</div>
-                </div>
-                <div class="col" data-comp-id="column.6">
-                    <div data-comp-id="text.6" ng-bind="data.tasknumber">Task Number</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.4" style="margin: 10px;">
-                <div class="col" data-comp-id="column.7">
-                    <div data-comp-id="text.7">Quantity</div>
-                </div>
-                <div class="col" data-comp-id="column.8">
-                    <div data-comp-id="text.8" ng-bind="data.quantity">Quantity</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.5" style="margin: 10px;">
-                <div class="col" data-comp-id="column.9">
-                    <div data-comp-id="text.9">Current Operation</div>
-                </div>
-                <div class="col" data-comp-id="column.10">
-                    <div data-comp-id="text.10" ng-bind="data.currentopp">Current Operation</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.6" style="margin: 10px;">
-                <div class="col" data-comp-id="column.11">
-                    <div data-comp-id="text.11">Next Operation</div>
-                </div>
-                <div class="col" data-comp-id="column.12">
-                    <div data-comp-id="text.12" ng-bind="data.nextopp">Next Operation</div>
-                </div>
-            </div>
+        <div class="d_list">
+            <ul>
+                <li>
+                    <label>Batch Number</label>
+                    <span ng-bind="data.batchnumber"></span>
+                </li>
+                <li>
+                    <label>Status</label>
+                    <span ng-bind="data.status"></span>
+                </li>
+                <li>
+                    <label>Task Number</label>
+                    <span ng-bind="data.tasknumber"></span>
+                </li>
+                <li>
+                    <label>Quantity</label>
+                    <span ng-bind="data.quantity"></span>
+                </li>
+                <li>
+                    <label>Current Operation</label>
+                    <span ng-bind="data.currentopp"></span>
+                </li>
+                <li>
+                    <label>Next Operation</label>
+                    <span ng-bind="data.nextopp"></span>
+                </li>
+            </ul>
         </div>
     </ion-content>
 </ion-view>
