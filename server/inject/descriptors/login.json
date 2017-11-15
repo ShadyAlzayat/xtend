@@ -17,12 +17,5 @@
       "control": "exists"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "login"
-      ]
-    }
-  ]
+  "connect": []
 }
