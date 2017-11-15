@@ -13,7 +13,8 @@
     },
     "islogin": {
       "type": "string",
-      "selector": "body"
+      "selector": "body",
+      "control": "exists"
     }
   },
   "connect": []
