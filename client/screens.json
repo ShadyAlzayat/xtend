@@ -34,6 +34,12 @@
       "name": "About",
       "sourceScreenId": "app.blank",
       "sourceAppId": "xtend_2"
+    },
+    {
+      "id": "login",
+      "name": "Login",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
