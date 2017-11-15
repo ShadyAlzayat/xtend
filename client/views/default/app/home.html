@@ -8,21 +8,15 @@
         <ion-nav-buttons side="right"></ion-nav-buttons>
     </ion-nav-bar>
     <ion-content class="container" data-comp-id="ionic-content.1">
-        <div class="inner_content" data-comp-id="div.1">
-            <div class="row" data-comp-id="row.1">
-                <div class="col" data-comp-id="column.1">
-                    <label class="item item-input item-stacked-label positive-border"
-                        data-comp-id="textInput.1">
-                        <span class="input-label required"></span>
-                        <input ng-model="data.batchnumber" placeholder="Enter Bar Code" type="text">
-                    </label>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.2">
-                <div class="col" data-comp-id="column.2">
-                    <button class="button button-block button-positive" data-comp-id="button.2"
-                        ng-click="app.go('app.details')">Submit</button>
-                </div>
+        <div data-comp-id="div.2">
+            <div data-comp-id="div.3">
+                <label class="item item-input item-stacked-label positive-border"
+                    data-comp-id="textInput.1">
+                    <span class="input-label required"></span>
+                    <input ng-model="data.batchnumber" placeholder="Enter Bar Code" type="text">
+                </label>
+                <button class="button button-block button-positive" data-comp-id="button.2"
+                    ng-click="app.go('app.details')">Submit</button>
             </div>
         </div>
     </ion-content>
