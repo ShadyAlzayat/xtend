@@ -2,7 +2,7 @@
     <ion-nav-bar align-title="" class="header_bg" data-comp-id="nav-bar.1">
         <ion-nav-buttons side="left">
             <button class="button button-icon ion-navicon menu_btn" data-comp-id="button.1"
-                ng-click="app.go('app.home')"></button>
+                ng-click="app.go('app.menu')"></button>
         </ion-nav-buttons>
         <ion-nav-title class="head_title" data-comp-id="nav-title.1">Xtend</ion-nav-title>
         <ion-nav-buttons side="right"></ion-nav-buttons>
@@ -23,7 +23,8 @@
                         <input ng-model="data.batchnumber" placeholder="Enter Batch Code" type="text">
                     </div>
                     <div class="b_btn">
-                        <button class="button button-block" data-comp-id="button.2">Proceed</button>
+                        <button class="button button-block" data-comp-id="button.2"
+                            ng-click="app.action('home', 'submit', this)">Proceed</button>
                         <!--<button ng-click="app.go('app.details')">Proceed</button>-->
                     </div>
                 </div>
