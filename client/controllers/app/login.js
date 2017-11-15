@@ -10,7 +10,8 @@ function app_login($scope, app) {
     };
     $scope.doLogin = function () {
         $scope.app.showLoading('Logging in');
-        app.action('login', 'submit', this);
+        app.call('loginbasic','login',$scope.data);
+       
     };
     
     $scope.doAppLogin = function (credentials) {
