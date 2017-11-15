@@ -17,5 +17,12 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
