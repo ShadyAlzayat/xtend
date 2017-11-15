@@ -12,8 +12,10 @@
             <div class="box"></div>
             <div class="inner_content">
                 <div class="box_inner">
-                    <label>Enter Bar Code</label>
-                    <input ng-model="data.batchnumber" placeholder="Enter Bar Code" type="text">
+                    <label>Enter Batch Code</label>
+                    <div class="b_txtbox">
+                        <input ng-model="data.batchnumber" placeholder="Enter Bar Code" type="text">
+                    </div>
                     <button ng-click="app.go('app.details')">Submit</button>
                 </div>
             </div>
