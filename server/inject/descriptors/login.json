@@ -12,10 +12,17 @@
       "type": "string"
     },
     "islogin": {
-      "type": "string",
+      "type": "identifier",
       "selector": "body",
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
