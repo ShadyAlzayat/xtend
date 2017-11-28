@@ -1,4 +1,11 @@
 angular.module('app').controller('app_login', app_login);
+function app_login($scope, app,$ionicLoading) {
+    'use strict';
+    app.init($scope);
+  
+} 
+
+/*angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
     app.init($scope);
@@ -25,4 +32,4 @@ function app_login($scope, app, $q, powwowLoginNew) {
             app.origEstablishConnection(params);
         }
     }
-}
+}*/
