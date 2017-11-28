@@ -22,7 +22,7 @@
       "type": "string",
       "selector": "#ajax-errorMessage",
       "control": "property.innerText",
-      "selectContains": "Customer Order Not found"
+      "selectContains": "Batch Not Found"
     }
   },
   "connect": [
