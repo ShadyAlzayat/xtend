@@ -8,12 +8,6 @@
       },
       "submit": {
         "type": "action"
-      },
-      "error": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
       }
     }
   },
