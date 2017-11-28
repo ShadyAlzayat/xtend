@@ -10,7 +10,10 @@
         "type": "action"
       },
       "error": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   },
