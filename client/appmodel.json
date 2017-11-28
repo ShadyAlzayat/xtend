@@ -8,6 +8,9 @@
       },
       "submit": {
         "type": "action"
+      },
+      "error": {
+        "type": "string"
       }
     }
   },
