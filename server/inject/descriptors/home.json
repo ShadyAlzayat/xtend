@@ -17,11 +17,6 @@
       "selector": "h3",
       "control": "exists",
       "selectContains": "Enter the Batch Number"
-    },
-    "error": {
-      "type": "string",
-      "selector": "#ajax-errorMessage",
-      "control": "text"
     }
   },
   "connect": [
