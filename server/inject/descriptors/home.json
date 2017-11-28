@@ -21,7 +21,7 @@
     "error": {
       "type": "string",
       "selector": "#ajax-errorMessage",
-      "control": "text",
+      "control": "property.innerText",
       "selectContains": "Customer Order Not found"
     }
   },
