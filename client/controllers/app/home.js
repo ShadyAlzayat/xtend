@@ -2,6 +2,11 @@ angular.module('app').controller('app_home', app_home);
 function app_home($scope, app) {
     'use strict';
     app.init($scope);
+    
+    $scope.reset = function () {
+        $scope.data = {};
+    };
+    
     $scope.scan = function () {
         cordova.plugins.barcodeScanner.scan(
             // success callback function
