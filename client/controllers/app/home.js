@@ -38,7 +38,7 @@ function app_home($scope, app) {
     }
     else
     {
-      alert("cordova Not available");  
+      alert("Cordova Not available");  
     }
     };
 }
