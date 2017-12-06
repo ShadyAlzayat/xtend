@@ -35,18 +35,9 @@
         <div class="row" data-comp-id="row.1">
             <div class="col" data-comp-id="column.1">
                 <div class="assertive text-center" data-comp-id="text.1" ng-bind="data.error">Some text</div>
-                <label class="item balanced-bg" data-comp-id="scanBarcode.1"
-                    ng-class="{'item-input item-button-right': style === 'control'}"
-                    scan-barcode="control" take-photo="control">
-                    <span class="input-label positive" ng-if="style === 'control'">Scan Barcode</span>
-                    <button class="button button-icon" ng-if="style === 'control'">
-                        <i class="icon ion-camera"></i>
-                    </button>
-                    <input disabled="" ng-if="style === 'control'" type="text">
-                    <button class="button button-block button-positive nomargin"
-                        ng-if="style === 'button'">Scan Barcode</button>
-                    <textarea class="not-visible" ng-model="data.batchnumber"></textarea>
-                </label>
+                <button
+                    class="button fa-icon fa-barcode icon positive-icon button-footer-center button-calm button-round"
+                    data-comp-id="button.3"></button>
             </div>
         </div>
     </ion-content>
