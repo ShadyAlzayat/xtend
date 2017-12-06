@@ -3,9 +3,9 @@ function app_home($scope, app) {
     'use strict';
     app.init($scope);
     
-    $scope.reset = function () {
+    /*$scope.reset = function () {
         $scope.data = {};
-    };
+    };*/
     
     $scope.scan = function () {
         cordova.plugins.barcodeScanner.scan(
