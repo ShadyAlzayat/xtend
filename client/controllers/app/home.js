@@ -34,10 +34,11 @@ function app_home($scope, app) {
                 "orientation": "landscape"
             }
         );
-    };
+    
     }
     else
     {
       alert("cordova Not available");  
     }
+    };
 }
