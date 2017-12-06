@@ -8,6 +8,8 @@ function app_home($scope, app) {
     };*/
     
     $scope.scan = function () {
+        if (cordova&&cordova.plugins&&cordova.plugins.barcodeScanner)
+        {
         cordova.plugins.barcodeScanner.scan(
             // success callback function
             function (result) {
@@ -33,4 +35,9 @@ function app_home($scope, app) {
             }
         );
     };
+    }
+    else
+    {
+      alert("cordova Not available");  
+    }
 }
