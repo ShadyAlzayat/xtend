@@ -14,9 +14,8 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": "h3",
-      "control": "exists",
-      "selectContains": "Enter the Batch Number"
+      "selector": "#general-information",
+      "control": "exists"
     },
     "error": {
       "type": "string",
