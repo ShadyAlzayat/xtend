@@ -8,6 +8,7 @@ function app_home($scope, app) {
     };
     
     $scope.scan = function () {
+        app.action('home', 'submit', this)
         if (cordova&&cordova.plugins&&cordova.plugins.barcodeScanner)
         {
         cordova.plugins.barcodeScanner.scan(
@@ -18,7 +19,7 @@ function app_home($scope, app) {
                     //$scope.data.format = result.format;
                     $scope.data.batchnumber = result.text;
                     $scope.$digest();
-                    app.action('home', 'submit', this)
+                    
                     
                 }, 0);
             },
