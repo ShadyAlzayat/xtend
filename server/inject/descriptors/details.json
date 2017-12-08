@@ -60,6 +60,11 @@
       "type": "identifier",
       "selector": "h3",
       "control": "exists"
+    },
+    "error": {
+      "type": "string",
+      "selector": "h3",
+      "control": "property.innerText"
     }
   },
   "connect": [
