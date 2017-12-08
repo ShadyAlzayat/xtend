@@ -19,7 +19,7 @@ function app_home($scope, app) {
                     //$scope.data.format = result.format;
                     $scope.data.batchnumber = result.text;
                     $scope.$digest();
-                     app.action('home', 'submit', this)
+                    app.action('home', 'submit', this);
                     
                 }, 0);
             },
