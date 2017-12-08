@@ -4,7 +4,7 @@ function app_login($scope, app,$ionicLoading) {
     app.init($scope);
   //app.call('login.loginBasic', data);
 } */
-
+/*
 angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
@@ -33,3 +33,4 @@ function app_login($scope, app, $q, powwowLoginNew) {
         }
     }
 }
+*/
