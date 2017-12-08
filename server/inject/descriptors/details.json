@@ -64,7 +64,8 @@
     "error": {
       "type": "string",
       "selector": "h3",
-      "control": "property.innerText"
+      "control": "text",
+      "selectContains": "Enter the Batch Number"
     }
   },
   "connect": [
