@@ -63,8 +63,8 @@
     },
     "error": {
       "type": "string",
-      "selector": "h3",
-      "control": "text",
+      "selector": "#searchBar",
+      "control": "property.innerText",
       "selectContains": "Enter the Batch Number"
     }
   },
