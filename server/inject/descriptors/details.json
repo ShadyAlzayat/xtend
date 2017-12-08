@@ -58,7 +58,7 @@
     },
     "isdetails": {
       "type": "identifier",
-      "selector": "h3",
+      "selector": "#general-information",
       "control": "exists"
     },
     "error": {
