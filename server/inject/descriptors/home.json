@@ -14,7 +14,7 @@
     },
     "ishome": {
       "type": "identifier",
-      "selector": "#general-information",
+      "selector": "h3",
       "control": "exists"
     },
     "error": {
