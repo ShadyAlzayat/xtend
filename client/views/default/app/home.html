@@ -37,16 +37,15 @@
                 <div class="assertive text-center" data-comp-id="text.1" ng-bind="data.error">Some text</div>
             </div>
         </div>
-        <div class="row" data-comp-id="row.2">
-            <div class="col" data-comp-id="column.2" ng-click="scan()">
+    </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.3" style="padding: 0px;">
+            <div class="col" data-comp-id="column.3" style="padding: 0px;">
                 <button
-                    class="button fa-icon fa-barcode icon positive-icon button-footer-center button-round button-energized"
-                    data-comp-id="button.3" ng-click="scan()" style="margin: 50px;"></button>
-            </div>
-            <div class="col" data-comp-id="column.3" ng-click="reset()">
-                <button class="button positive button-energized button-large"
-                    data-comp-id="button.4" style="margin: 50px;">Clear</button>
+                    class="button fa-icon fa-barcode positive-icon button-footer-center button-energized button-block icon-left"
+                    data-comp-id="button.3" ng-click="scan()" style="">Scan Barcode</button>
             </div>
         </div>
-    </ion-content>
+    </div>
 </ion-view>
