@@ -60,12 +60,6 @@
       "type": "identifier",
       "selector": "#general-information",
       "control": "exists"
-    },
-    "error": {
-      "type": "string",
-      "selector": "#searchBar",
-      "control": "property.innerText",
-      "selectContains": "Enter the Batch Number"
     }
   },
   "connect": [
